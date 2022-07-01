@@ -31,8 +31,16 @@ body{
 }
 
 .dropdown-menu{
-    display: none;
+    display: flex;
+    flex-direction: column;
+    transition: top 0.15s ease-in-out, opacity 0.3s ease-in-out;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
     position: absolute;
+    top: 50px;
+    background-color: #F94C66;
+    border-radius: 4px;
 }
 
 .nav-section{
@@ -41,9 +49,9 @@ body{
 }
 
 .navbar-item:hover .dropdown-menu{
-    display: flex;
-    flex-direction: column;
-    background-color: #F94C66;
+    opacity: 1;
+    max-height: 500px;
+    top: 40px;
 }
 
 .dropdown-item{
