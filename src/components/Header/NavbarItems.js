@@ -4,7 +4,38 @@ const NavbarItems = [
         name: "categories",
         url: "/categories",
         type: "dropdown",
-        dropdownItems: ["shonen", "isekai", "slice of life", "romance", "sci-fi", "comedy"]
+        dropdownItems: [
+            {
+                key: 1,
+                name: "shonen",
+                url: "/categories/shonen"
+            },
+            {
+                key: 2,
+                name: "iseksi",
+                url: "/categories/iseksi"
+            },
+            {
+                key: 3,
+                name: "slice of life",
+                url: "/categories/slice-of-life"
+            },
+            {
+                key: 4,
+                name: "romance",
+                url: "/categories/romance"
+            },
+            {
+                key: 5,
+                name: "sci-fi",
+                url: "/categories/sci-fi"
+            },
+            {
+                key: 2,
+                name: "comedy",
+                url: "/categories/comedy"
+            }
+        ]
     },
     {
         key: 2,

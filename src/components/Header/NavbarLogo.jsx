@@ -2,8 +2,8 @@ import React from "react"
 
 function NavbarLogo(){
     return(
-        <div>
-            <h1>logo</h1>
+        <div className="navbar-logo">
+            logo
         </div>
     )
 }

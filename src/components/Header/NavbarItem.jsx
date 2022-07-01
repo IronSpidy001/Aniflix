@@ -1,20 +1,20 @@
 import React from "react";
+import DropdownMenu from "./DropdownMenu.jsx"
+import NavbarItems from "./NavbarItems.js";
 
 function NavbarItem(props){
     if(props.type === "link"){
         return(
-            <div>
+            <div className="navbar-item">
                 <span><a href={props.url}>{props.name}</a></span>
             </div>
         )
     }else if(props.type === "dropdown"){
         return(
-            <div>
+            <div className="navbar-item">
                 <span>{props.name}</span>
                 <button></button>
-                {props.dropdownItems.map(function(item){
-                    return(<a>{item}</a>)
-                })}
+                <DropdownMenu dropdownItems = {props.dropdownItems}/>
             </div>
         )
     }
