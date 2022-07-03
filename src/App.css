@@ -72,7 +72,18 @@ body{
 }
 
 .search-bar{
-    border-style: none none solid none;
-    background-color: transparent;
     color:#F94C66;
+    transition: padding 0.5s;
+    position: relative;
+    bottom:7px;
+    border: 3px none #fff;
+    border-bottom: solid;
+    background-color: transparent;
+}
+
+.search-bar:focus{
+    border: 3px none #555;
+    outline: none;
+    border-bottom: solid;
+    padding: 5px;
 }

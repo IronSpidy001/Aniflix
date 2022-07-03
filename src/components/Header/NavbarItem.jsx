@@ -13,7 +13,6 @@ function NavbarItem(props){
         return(
             <div className="navbar-item">
                 <span><a className="navbarItem" href={props.url}>{props.name}</a></span>
-                <button className="dropdown-btn"></button>
                 <DropdownMenu dropdownItems = {props.dropdownItems}/>
             </div>
         )
