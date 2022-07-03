@@ -15,7 +15,7 @@ function Search(props){
 
     return(
         <div>
-            <input type="text" onChange={onChange} value={inputValue} name={props.name} placeholder={props.placeholder}/>
+            <input className="search-bar" type="text" onChange={onChange} value={inputValue} name={props.name} placeholder={props.placeholder}/>
             <input type="button" onClick={onClick}/>
         </div>
     )

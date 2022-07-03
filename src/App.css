@@ -57,3 +57,22 @@ body{
 .dropdown-item{
     padding: 5px
 }
+
+.navbarItem{
+    color:#F94C66;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.dropdown-btn{
+    background-color:#F94C66;
+    border: none;
+}
+
+.search-bar{
+    border-style: none none solid none;
+    background-color: transparent;
+    color:#F94C66;
+}

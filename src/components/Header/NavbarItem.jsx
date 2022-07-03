@@ -6,14 +6,14 @@ function NavbarItem(props){
     if(props.type === "link"){
         return(
             <div className="navbar-item">
-                <span><a href={props.url}>{props.name}</a></span>
+                <span><a className="navbarItem" href={props.url}>{props.name}</a></span>
             </div>
         )
     }else if(props.type === "dropdown"){
         return(
             <div className="navbar-item">
-                <span><a href={props.url}>{props.name}</a></span>
-                <button></button>
+                <span><a className="navbarItem" href={props.url}>{props.name}</a></span>
+                <button className="dropdown-btn"></button>
                 <DropdownMenu dropdownItems = {props.dropdownItems}/>
             </div>
         )
