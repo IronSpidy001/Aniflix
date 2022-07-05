@@ -19,11 +19,13 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    padding: 10px 3%
+    padding: 20px 3%;
+    align-items: center;
 }
 
 .navbar-logo{
     padding: 0 10px;
+    padding-top: 5px;
 }
 
 .navbar-item{
@@ -38,7 +40,7 @@ body{
     max-height: 0;
     overflow: hidden;
     position: absolute;
-    top: 50px;
+    top: 70px;
     background-color: #F94C66;
     border-radius: 4px;
 }
@@ -46,12 +48,13 @@ body{
 .nav-section{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .navbar-item:hover .dropdown-menu{
     opacity: 1;
     max-height: 500px;
-    top: 40px;
+    top: 50px;
 }
 
 .dropdown-item{
@@ -59,44 +62,36 @@ body{
 }
 
 .navbarItem{
-    color:#c9c5be;
+    color:#DB202C;
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
-}
-
-.dropdown-btn{
-    background-color:#c9c5be;
-    border: none;
 }
 
 .search-bar{
     color:#787c84;
-    transition: padding 0.5s;
-    position: relative;
-    bottom:7px;
+    transition: width 0.5s;
     border: 3px none #fff;
+    width: 150px;
     border-bottom: solid;
     background-color: transparent;
+    display: inline-block;
 }
 
 .search-bar:focus{
     border: 3px none #555;
     outline: none;
     border-bottom: solid;
-    padding: 5px;
-}
-
-.search-bar-btn{
-    position: relative;
-    right: 25px;
-    background-color: transparent;
-    border: none;
+    width: 200px;
 }
 
 .search-icon{
     fill: #787c84;
     stroke: #787c84;
     height: 20px;
+}
+
+.logo{
+    height: 27px;
 }
