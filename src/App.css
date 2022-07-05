@@ -9,7 +9,7 @@ body{
 }
 
 .header{
-    background-color: #53BF9D;
+    background-color: #141a28;
     padding: 0;
     position: sticky;
     top: 0;
@@ -59,7 +59,7 @@ body{
 }
 
 .navbarItem{
-    color:#F94C66;
+    color:#c9c5be;
     font-family: sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -67,12 +67,12 @@ body{
 }
 
 .dropdown-btn{
-    background-color:#F94C66;
+    background-color:#c9c5be;
     border: none;
 }
 
 .search-bar{
-    color:#F94C66;
+    color:#787c84;
     transition: padding 0.5s;
     position: relative;
     bottom:7px;
@@ -86,4 +86,17 @@ body{
     outline: none;
     border-bottom: solid;
     padding: 5px;
+}
+
+.search-bar-btn{
+    position: relative;
+    right: 25px;
+    background-color: transparent;
+    border: none;
+}
+
+.search-icon{
+    fill: #787c84;
+    stroke: #787c84;
+    height: 20px;
 }

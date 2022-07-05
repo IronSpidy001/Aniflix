@@ -1,4 +1,5 @@
 import React from "react"
+import SearchAlt from "@styled-icons/boxicons-regular"
 
 function Search(props){
 
@@ -16,7 +17,8 @@ function Search(props){
     return(
         <div>
             <input className="search-bar" type="text" onChange={onChange} value={inputValue} name={props.name} placeholder={props.placeholder}/>
-            <input type="button" onClick={onClick}/>
+            <input className="search-bar-btn" type="button" onClick={onClick}/>
+            <SearchAlt />
         </div>
     )
 }
