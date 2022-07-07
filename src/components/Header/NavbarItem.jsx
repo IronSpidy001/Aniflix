@@ -12,7 +12,7 @@ function NavbarItem(props){
     }else if(props.type === "dropdown"){
         return(
             <div className="navbar-item">
-                <span><a className="navbarItem" href={props.url}>{props.name}</a></span>
+                <a className="navbarItem" href={props.url}>{props.name}</a>
                 <DropdownMenu dropdownItems = {props.dropdownItems}/>
             </div>
         )
