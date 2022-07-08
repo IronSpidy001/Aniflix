@@ -1,6 +1,5 @@
 import React from "react";
 import DropdownMenu from "./DropdownMenu.jsx"
-import NavbarItems from "./NavbarItems.js";
 
 function NavbarItem(props){
     if(props.type === "link"){
