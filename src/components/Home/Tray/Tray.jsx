@@ -1,10 +1,11 @@
 import React from "react";
-import TrayHeading from "./TrayHeading"
+import TrayHeading from "./TrayHeading";
+import "./Tray.css";
 
 
 function Tray(props){
     return(
-        <div>
+        <div className="tray">
             <TrayHeading title={props.title} />
         </div>
     )

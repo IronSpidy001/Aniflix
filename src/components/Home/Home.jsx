@@ -3,15 +3,20 @@ import Carousel from "./Carousel/Carousel"
 import Tray from "./Tray/Tray"
 import Trays from "./Trays"
 
+
 function Home(){
     return(
         <div>
             <Carousel />
+            <div style={{padding: "0 3vw 30px 3vw"}}>
             {
                 Trays.map(function(section){
-                    <Tray title={section.title}/>
+                    return(
+                        <Tray title={section.title}/>
+                    )
                 })
             }
+            </div>
         </div>
     )
 }
