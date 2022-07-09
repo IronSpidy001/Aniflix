@@ -1,9 +1,13 @@
 import React from "react"
 
 function CopyRightText(){
+
+    const date = new Date();
+    const year = date.getFullYear();
+    
     return(
-        <div>
-            <p>Copyright</p>
+        <div className="copyRightText">
+            <p>Copyright © {year}</p>
         </div>
     )
 }
