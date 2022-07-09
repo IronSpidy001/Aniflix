@@ -1,4 +1,8 @@
 .Carousel{
-    display: flex;
-    flex-direction: row;
+    padding: 0 3%;
+}
+
+.carouselImg{
+    height: 30vh;
+    width: 100%;
 }

@@ -11,7 +11,7 @@ function CustomCarousel() {
           return (
             <Carousel.Item interval={1000}>
               <img
-                className="d-block w-100"
+                className="d-block carouselImg"
                 src={item.imgSrc}
                 alt={item.name}
               />
