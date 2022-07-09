@@ -5,21 +5,19 @@ import Carousel from "react-bootstrap/Carousel";
 
 function CustomCarousel() {
   return (
-    <div>
-      <Carousel>
+    <div className="background">
+      <Carousel className="Carousel" variant="light">
         {CarouselItems.map(function (item) {
           return (
-            <Carousel.Item interval={1000}>
+            <Carousel.Item className="CarouselItem" interval={5000}>
               <img
                 className="d-block carouselImg"
                 src={item.imgSrc}
                 alt={item.name}
               />
-              <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
+              <Carousel.Caption className="carouselCaption">
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
               </Carousel.Caption>
             </Carousel.Item>
           );
