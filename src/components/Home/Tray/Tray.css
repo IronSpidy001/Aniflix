@@ -27,3 +27,16 @@
     transform: scale(1.05);
     z-index: 0;
 }
+
+.TrayImg:hover .trayItemTitle{
+    display: inline-block;
+}
+
+.TrayItemDetails{
+    position: relative;
+    display: none;
+    color: white;
+    text-align: center;
+    top: 100px;
+    z-index: 2;
+}

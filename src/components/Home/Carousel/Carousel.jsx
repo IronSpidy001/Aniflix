@@ -6,7 +6,7 @@ import Carousel from "react-bootstrap/Carousel";
 function CustomCarousel() {
   return (
     <div className="background">
-      <Carousel className="Carousel" variant="light">
+      <Carousel controls={false} className="Carousel" variant="light">
         {CarouselItems.map(function (item) {
           return (
             <Carousel.Item className="CarouselItem" interval={5000}>

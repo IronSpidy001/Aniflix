@@ -6,7 +6,7 @@ function TrayContent(props){
         <div className="scrollable-container">
             {props.content.map(function(item, index){
                 return(
-                    <TrayItem key={index} imgSrc={item.imgSrc}/>
+                    <TrayItem key={index} imgSrc={item.imgSrc} name={item.title}/>
                 )
             })} 
         </div>

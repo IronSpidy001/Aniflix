@@ -1,6 +1,6 @@
 const CarouselItems = [
     {
-        imgSrc: "/images/poster-images/AOT.jpg",
+        imgSrc: "/images/poster-images/AOT_banner.png",
         title: "Attact on titan",
         description: "Attack on Titan is an anime series based on the manga of the same name by Hajime Isayama. It was produced by Wit Studio and Production I.G for the first three seasons and by MAPPA for the fourth. The first season began airing in Japan on April 7, 2013, on Mainichi Broadcasting System."
     },

@@ -6,7 +6,6 @@
 
 .Carousel{
     padding: 0 0;
-    height: 57vh;
     width: 94vw;
     margin: 0 auto 50px auto;
     background-color: transparent;
@@ -15,7 +14,7 @@
 }
 
 .carouselImg{
-    height: 57vh;
+    object-fit: contain;
     width: 75vw;
     margin: 0 auto;
     padding-left: 25vw;

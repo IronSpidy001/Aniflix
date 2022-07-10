@@ -68,6 +68,10 @@
     display: inline-block;
 }
 
+.navbarItem:hover{
+    color: #a5c4d2;
+}
+
 .search-bar{
     color:#787c84;
     transition: width 0.5s;
