@@ -1,3 +1,29 @@
 .trayHeading{
     color: white;
 }
+
+.scrollable-container{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: flex;
+}
+
+.scrollable-container::-webkit-scrollbar{
+    display: none;
+}
+
+.TrayItem{
+    padding: 15px 15px 15px 0;
+    z-index: 0;
+}
+
+.TrayImg{
+    width: 170px;
+    transition: transform 0.5s;
+    border-radius: 5px;
+}
+
+.TrayImg:hover{
+    transform: scale(1.05);
+    z-index: 0;
+}

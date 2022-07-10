@@ -9,7 +9,7 @@
     height: 57vh;
     width: 94vw;
     margin: 0 auto 50px auto;
-    background-color: #030b17;
+    background-color: transparent;
     border-radius: 5px;
     z-index: -1;
 }

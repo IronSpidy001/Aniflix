@@ -12,7 +12,7 @@ function Home(){
             {
                 Trays.map(function(section){
                     return(
-                        <Tray title={section.title}/>
+                        <Tray title={section.title} content={section.content}/>
                     )
                 })
             }
