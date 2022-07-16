@@ -1,0 +1,36 @@
+.AnimeScreen{
+    padding: 0 3%;
+    background-image: linear-gradient(#141a28, #0c111b);
+    position: relative;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bannerText{
+    position: relative;
+    top: 50px;
+    left: 9%;
+}
+
+.bannerText h1{
+    font-size: 2.9vw;
+    color: #ffffff;
+}
+
+.bannerText p{
+    margin-top: 20px;
+    font-size: 1vw;
+    width: 28.5vw;
+    color: #c0c1c5;
+}
+
+.banner img{
+    width: 50vw;
+    object-fit: contain;
+    display: block;
+    border-radius: 0 5px 5px 0;
+}

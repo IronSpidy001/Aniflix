@@ -8,7 +8,7 @@ function Tray(props){
     return(
         <div>
             <TrayHeading title={props.title} />
-            <TrayContent content={props.content} />
+            <TrayContent content={props.content}/>
         </div>
     )
 }

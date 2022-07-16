@@ -3,11 +3,12 @@ import Banner from "./Banner"
 import Episodes from "./Episodes"
 import Reviews from "./Reviews"
 import Cast from "./Cast"
+import "./AnimeScreen.css"
 
 function AnimeScreen(props){
     return(
-        <div>
-            <Banner bannerName={props.bannerName}/>
+        <div className="AnimeScreen">
+            <Banner bannerTitle={props.bannerTitle} bannerImage={props.bannerImage} bannerText={props.bannerText}/>
             <Episodes episodes={props.episodes}/>
             <Reviews reviews={props.reviews}/>
             <Cast cast={props.cast}/>
