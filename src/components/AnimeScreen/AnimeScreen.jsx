@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "./Banner"
-import Episodes from "./Episodes"
+import Episodes from "./Episodes/Episodes"
 import Reviews from "./Reviews"
 import Cast from "./Cast"
 import "./AnimeScreen.css"

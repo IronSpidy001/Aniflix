@@ -1,0 +1,28 @@
+.episodes{
+    padding: 6rem 0;
+}
+
+.episodes h1{
+    color: #fff
+}
+
+.episodesTrayItem{
+    padding: 20px 30px 20px 0;
+    transition: all 0.25s;
+}
+
+.episodesTrayItem:hover{
+    transform: scale(1.08);
+}
+
+.episodesTrayItem h3{
+    color: white;
+}
+
+.episodesTrayItem img{
+    border-radius: 5px
+}
+
+.episodesTrayItem h5{
+    color: white;
+}
