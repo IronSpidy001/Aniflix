@@ -1,5 +1,5 @@
 .episodes{
-    padding: 6rem 0;
+    padding: 6rem 0 0 0;
 }
 
 .episodes h1{
@@ -17,6 +17,8 @@
 
 .episodesTrayItem h3{
     color: white;
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 .episodesTrayItem img{
@@ -24,5 +26,5 @@
 }
 
 .episodesTrayItem h5{
-    color: white;
+    color: #c0c1c5;
 }
